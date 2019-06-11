@@ -1,0 +1,39 @@
+.container{
+  margin-top: 10%;
+}
+span {
+  color: red;
+  font-weight: bold;
+}
+
+.has-error {
+  border: 1px dotted red;
+  background-color: #fee;
+  transition: 1s;
+}z
+
+.field > label > span.error {
+  text-align: right;
+}
+
+.field > label {
+  min-height: 50px;
+}
+
+div.thank-you {
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  padding: 25px;
+  background: rgb(153, 186, 230);
+  display: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+.alert{
+  width: 360px;
+  text-align: center;
+  display: none;
+}
