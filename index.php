@@ -62,9 +62,13 @@
         </div>
     </div>
 
-<script src="assets/js/maskinput.js"></script>
-<script>jQuery(function($){
-    $("#phone").mask("+38(999) 999-9999");
-});</script>
+    <script src="assets/js/maskinput.js"></script>
+    
+    <script>
+        jQuery(function($){
+            $("#phone").mask("+38(999) 999-9999");
+        });
+    </script>
+
 </body>
 </html>
